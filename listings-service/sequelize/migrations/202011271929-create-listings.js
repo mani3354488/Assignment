@@ -1,12 +1,12 @@
-const { QueryTypes, QueryInterface, DataTypes } = require("sequelize");
+const { QueryTypes, queryInterface, DataTypes } = require("sequelize");
 
-module.exports.up = (QueryInterface, DataTypes) => {
-    return QueryInterface.createTabel("listings", {
+module.exports.up = (queryInterface, DataTypes) => {
+    return queryInterface.createTabel("listings", {
         id: {
             allowNull: false,
             autoIncrement: true,
             primarykey: true,
-            type: DataTypes.INTEHER.UNSIGNED
+            type: DataTypes.INTEGER.UNSIGNED
         },
         title: {
             allowNull: false,
