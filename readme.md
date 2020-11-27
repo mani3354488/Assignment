@@ -1,1 +1,2 @@
-MERN stack, Graphql based application 
+MERN stack, Graphql based real time chat application.
+
