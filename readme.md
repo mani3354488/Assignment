@@ -1,0 +1,1 @@
+MERN stack, Graphql based application 
